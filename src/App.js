@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense onSaveExpenseData={saveDataHandler} />
+      <NewExpense onAddExpense={saveDataHandler} />
       <Expenses expenses={expenseData} />
     </div>
   );
