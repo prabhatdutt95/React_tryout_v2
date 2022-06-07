@@ -1,0 +1,55 @@
+.new_user_form {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 30rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new_user__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new_user__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new_user__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  width: 25rem;
+  max-width: 80%;
+}
+
+.new_user__actions {
+  text-align: right;
+}
+
+.new_user__actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background-color: #40005d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.valid_field {
+  border: 1px solid #ccc;
+}
+
+.invalid_field {
+  border: 1px solid rgb(253, 180, 180);
+}
